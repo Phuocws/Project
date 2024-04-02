@@ -37,6 +37,10 @@ a {
   margin-right: auto;
 }
 
+header {
+  background: #f8f4e9;
+}
+
 .header .fixed {
   position: sticky;
   top: -28px;
