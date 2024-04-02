@@ -1,0 +1,8 @@
+input:checked ~ img {
+  opacity: 0;
+  visibility: hidden;
+  display: none;
+}
+img {
+  transition: 1.5s;
+}

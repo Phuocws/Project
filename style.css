@@ -1,0 +1,16 @@
+* {
+  font-size: 1.5rem;
+}
+
+.container {
+  height: 300px;
+  background: #000;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.box {
+  width: 30%;
+  background-color: #ddd;
+}
