@@ -14,7 +14,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* commom */
+/* ============================commom=========================== */
 a {
   text-decoration: none;
 }
@@ -46,7 +46,7 @@ a {
   cursor: pointer;
 }
 
-/* isolate */
+/* ============================isolate============================ */
 .main-content {
   width: 1170px;
   max-width: calc(100% - 48px);
@@ -69,7 +69,7 @@ a {
   word-break: break-all;
 }
 
-/* header */
+/* ============================header============================ */
 header {
   background: #f8f4e9;
 }
@@ -127,7 +127,7 @@ header {
   margin-left: 49px;
 }
 
-/* hero */
+/* ============================hero============================ */
 .hero {
   padding: 56px 0px 65px;
   background: #fffcf4;
@@ -137,7 +137,7 @@ header {
   display: flex;
 }
 
-/* hero left */
+/* ============================hero left============================ */
 
 .hero .media-block {
   position: relative;
@@ -210,7 +210,7 @@ header {
   line-height: 167%;
 }
 
-/* hero right */
+/* ============================hero right============================ */
 
 .hero .content-block {
   width: 52%;
@@ -294,7 +294,7 @@ header {
   margin-left: 28px;
 }
 
-/* popular */
+/* ============================popular============================ */
 .popular {
   padding: 65px 0px;
   margin-top: 135px;
@@ -410,4 +410,69 @@ header {
 
 .popular .course-item .btn-book:hover {
   background: var(--primary-color);
+}
+
+/* ============================feedback============================ */
+.feedback {
+  margin-top: 135px;
+  padding: 96px 0px;
+  background: #2e2100;
+}
+
+.feedback-item {
+  display: flex;
+}
+
+.feedback-item .avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.feedback-item .info .memeber-name {
+  margin-top: 18px;
+  color: #f7f7f7;
+  font-family: var(--font-heading);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 142%;
+}
+
+.feedback-item .info .desc {
+  margin-top: 4px;
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  line-height: 186%;
+}
+
+.feedback-item .info .dots {
+  display: flex;
+  gap: 6px;
+  margin-top: 28px;
+}
+
+.feedback-item .info .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #634700;
+  cursor: pointer;
+}
+
+.feedback-item .info .dot.active {
+  background: var(--primary-color);
+  cursor: default;
+}
+
+.feedback-item .content {
+  width: 66%;
+  margin-left: auto;
+}
+
+.feedback-item blockquote {
+  color: #fff;
+  font-size: 2.6rem;
+  font-style: italic;
+  line-height: 154%;
 }
