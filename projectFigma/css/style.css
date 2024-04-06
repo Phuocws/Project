@@ -550,3 +550,120 @@ header {
   width: 470px;
   height: 440px;
 }
+
+/* ============================blog============================ */
+.blogs {
+  margin-top: 135px;
+  padding: 96px 0px;
+  background: #fffcf4;
+}
+
+.blogs .blog-top {
+  text-align: center;
+}
+
+.blogs .blog-top .desc {
+  color: #696262;
+  font-size: 1.6rem;
+  line-height: 28px;
+  line-height: 175%;
+  width: 448px;
+  margin: 16px auto 0px;
+}
+
+.blogs .blog-list {
+  display: flex;
+  margin-top: 55px;
+  gap: 30px;
+  overflow: hidden;
+}
+
+.blogs .item {
+  width: calc(33.33% - 20px);
+  border-radius: 16px;
+  background: #fff;
+  flex-shrink: 0;
+}
+
+.blogs .item:hover {
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+}
+
+.blogs .item .thumb {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.blogs .item .info {
+  padding: 20px 20px 28px;
+}
+
+.blogs .item .date {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  color: #5f5b53;
+  font-size: 1.4rem;
+  line-height: 186%;
+}
+
+.blogs .item .date::before {
+  content: "";
+  display: inline-block;
+  margin-right: 4px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--primary-color);
+}
+
+.blogs .item .date::after {
+  content: "";
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  right: -27px;
+  display: inline-block;
+  height: 1px;
+  border-radius: 0.05px;
+  background: #e2dfda;
+}
+
+.blogs .item .title {
+  color: #171100;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 175%;
+  margin-top: 12px;
+}
+
+.blogs .item .btn {
+  margin-top: 12px;
+  font-size: 1.4rem;
+}
+
+.blogs .item .btn:hover {
+  background: var(--primary-color);
+}
+
+.blogs .dots {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  margin-top: 38px;
+}
+
+.blogs .dots .dot {
+  width: 6px;
+  height: 6px;
+  background: #5f5f53;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.blogs .dots .dot.active {
+  background: var(--primary-color);
+  cursor: default;
+}
